@@ -23,8 +23,8 @@ YT_API_KEY = getenv("YT_API_KEY" , None ) ## get your secret key from Mr cute x 
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz')
-API_KEY = getenv("API_KEY", None)
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots7ed2dc') # youtube song api ke
 
 # Set this to true if you want post ads automatically
 ADS_MODE = getenv("ADS_MODE", None)
@@ -46,15 +46,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/masoom70/Jerry",
+    "https://github.com/ISTKHAROP/Jai",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RessoUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DOCTOR_CHATTING_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARISHFA_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+PaEtaAu9DI9mYzc9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
@@ -95,7 +95,7 @@ API_KEY = getenv("API_KEY")
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/WJ-.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/rsx0td.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/WJ-.jpg"
